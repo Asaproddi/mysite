@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body{
+margin: 0;
+background-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);   
+ overflow-x: hidden;
+}
+.page1{
+    background-image: url(https://krot.info/uploads/posts/2021-11/1636013974_3-krot-info-p-avto-dlya-pustini-mashini-krasivo-foto-3.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    margin:0 0 50px;
+    padding-top: 300px;
+    text-shadow: 0px 0px 50px rgb(255, 0, 0), 0 0px 100px rgb(111, 0, 255);
+}
+.page2{
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(211, 169, 129);
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    margin:0 0 0px;
+    padding-top: 50px;
+    font-weight: 100;
+    text-shadow: 0px 0px 20px rgb(83, 18, 18);
+    color: white;
+}
+p{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin:0 0 50px;
+    padding-top: 80px;
+    font-weight: 100;
+}
+.car{
+    transform: scale(.85);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.85);
+  }
+}
+.page3{
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+h3{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    margin:0 0 0px;
+    padding-top: 50px;
+    font-weight: 100;
+    text-shadow: 0px 0px 20px rgb(83, 18, 18);
+    color: white;
+
+}
+.uslugi{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2,auto);
+    justify-content: center;
+    align-content: center;
+gap: 20px;
+margin-top: 140px;
+margin-bottom: 100px;
+}
+.page4{
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(64, 45, 99);
+}
+h4{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    margin:0 0 0px;
+    padding-top: 50px;
+    font-weight: 100;
+    text-shadow: 0px 0px 20px rgb(83, 18, 18);
+    color: white;
+}
+.page5{
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(64, 45, 99);
+}
+.box{
+    width: 350px;
+    height: 100px;
+    background-color: white;
+   margin-top: 100px;
+   margin-left: 450px;
+   border-radius: 10px;
+   animation: glowing 1300ms infinite;
+}
+   @keyframes glowing {
+    0% { background-color: #ffffff; box-shadow: 0 0 20px #00d9ff; }
+    50% { background-color: #ffffff; box-shadow: 0 0 20px #1100ff; }
+    100% { background-color: #ffffff; box-shadow: 0 0 20px #ff0202; }
+    }
+  
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+   position: relative;
+   top: 35px;
+}
+h6{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    margin:0 0 0px;
+    padding-top: 200px;
+    font-weight: 70;
+    text-shadow: 0px 0px 20px rgb(25, 185, 124);
+    color: rgb(0, 0, 0);
+}
+
+
